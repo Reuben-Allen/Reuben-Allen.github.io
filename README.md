@@ -7,7 +7,7 @@ The database can be accessed primarily through the website <https://reuben-allen
 The database may also be accessed directly through the python script.
 
 ### Database structure
-The metabolite information is stored in an efficient and human-interpretable format of JavaScript Object Notation (JSON, see <https://www.json.org/json-en.html> for more information). The overall organizational structure is as follows:
+The metabolite information is stored in the efficient and human-interpretable format of JavaScript Object Notation (JSON, see <https://www.json.org/json-en.html> for more information). The overall organizational structure is as follows:
 ```
 {
     "metabolites": [
