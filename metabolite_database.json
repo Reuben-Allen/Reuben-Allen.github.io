@@ -1,1 +1,275 @@
-
+{
+    "metabolites": [
+        {
+            "name": ["acetate","acetic acid","ethanoic acid"],
+            "CAS": "64-19-7",
+            "class": "short-chain fatty acid",
+            "producers": ["Akkermansia muciniphilia [1]", "Bacteroides spp.","Bifidobacterium spp.", "Prevotella spp.", "Ruminococcus spp."],
+            "functions/associations": [
+                "The most abundant metabolite in peripheral circulation [1].",
+                "Acetate can cross the blood-brain barrier and reduce apetite via a central host-homeostatic mechanism [1], where it increases acetyl-CoA and ATP levels in the brain [2].",
+                "Dampens the neuroinflammatory response to lipopolysaccharides [2].",
+                "Ligand for GPR43/FFAR2 (259~537 μM EC50), which is known to increase the secretion of neuropeptides GLP-1 and PYY [1]."
+            ],
+            "bibliography": {
+                "1": {
+                    "title":"From Dietary Fiber to Host Physiology: Short-Chain Fatty Acids as Key Bacterial Metabolites",
+                    "journal":"Cell",
+                    "year":"2016",
+                    "doi":"http://dx.doi.org/10.1016/j.cell.2016.05.041"
+                },
+                "2": {
+                    "title": "Short chain fatty acids: key regulators of the local and systemic immune response in inflammatory diseases and infections",
+                    "journal": "Open Biology",
+                    "year": "2023",
+                    "doi":"https://doi.org/10.1098/rsob.230014"
+                }
+            }
+        },
+        {
+            "name": ["butyrate","butyric acid","butanoic acid"],
+            "CAS": "107-92-6",
+            "class": "short-chain fatty acid",
+            "producers": ["Roseburia inulinivorans (from acetate) [2]","Faecalibacterium prausnitzii (from acetate) [2]","Eubacterium rectale (from acetate) [2]","Eubacterium hallii (from acetate and lactate) [2]", "Clostridium butyricum [1]", "Butyricimonas spp.", "Clostridium sporogenes (low levels) [3]"],
+            "functions/associations": [
+                "Dampens the neuroinflammatory response to lipopolysaccharides [1].",
+                "Ligand for GPR109A/HCA2 (1.6 mM EC50), which is known to improve epithelial barrier function and increase Treg generation (via release of IL-10 from intestinal dendritic cells and macrophages [1]) [2].",
+                "Ligand for GPR41/FFAR3, albeit with a lower EC50 than propionate [2].",
+                "In a Drosophila model of Parkinson disease, butyrate application improves locomotor impairment and elevated dopamine levels resulting in higher survival rates [1].",
+                "In mice models of Alzheimer disease, butyrate improves memory function in the advanced stage of the disease and reduces neuroinflammation that improves synaptic plasticity [1].",
+                "Butyrate induces the expression of genes linked to an anti-stress response by inhibiting HDAC activity, which is related to reduced microglial cell activation and TNFalpha signaling [1].",
+                "Under physiological hypoxia, the oxygen consumption in enterocytes is driven by butyrate, which stabilizes the hypoxia-inducible factor 1 (HIF-1), a transcription factor that upregulates gene expression of Claudin-1, stabalizing epithelial barrier integrity [1].",
+                "Butyrate suppresses proinflammatory effectors in lamina propria macrophages and differentiation of dendritic cells from bone marrow stem cells via HDAC inhibition [2]."
+            ],
+            "bibliography": {
+                "1": {
+                    "title": "Short chain fatty acids: key regulators of the local and systemic immune response in inflammatory diseases and infections",
+                    "journal": "Open Biology",
+                    "year": "2023",
+                    "doi":"https://doi.org/10.1098/rsob.230014"
+                },
+                "2": {
+                    "title":"From Dietary Fiber to Host Physiology: Short-Chain Fatty Acids as Key Bacterial Metabolites",
+                    "journal":"Cell",
+                    "year":"2016",
+                    "doi":"http://dx.doi.org/10.1016/j.cell.2016.05.041"
+                },
+                "3": {
+                    "title":"Clostridium sporogenes uses reductive Stickland metabolism in the gut to generate ATP and produce circulating metabolites",
+                    "journal":"Nature Microbiology",
+                    "year":"2022",
+                    "doi":"https://doi.org/10.1038/s41564-022-01109-9"
+                }
+            }
+        },
+        {
+            "name": ["propionate","propionic acid"],
+            "CAS": "79-09-4",
+            "class": "short-chain fatty acid",
+            "producers": ["Roseburia inulinivorans via fucose -> propanediol (produces butyrate when grown on glucose) [3]", "Coprococcus catus [3]", "Akkermansia muciniphilia [3]", "Clostridium sporogenes [4]", "Butyricimonas spp."],
+            "functions/associations": [
+                "Significantly reduced in the feces and serum of humun patients across different types of multiple sclerosis compared to healthy controls. In these individuals, depleted taxa in the gut microbiome included Butyricimonas (known plant fibre degrader and SCFA producer) and Romboutsia [1].",
+                "Propionic acid supplementation induces a positive shift in immune cell balance (i.e., a decrease in Th1/Th17 and an increase in peripheral Treg cells and functional recovery of Treg cell suppressive function) in MS patients [1].",
+                "Ligand for GPR41/FFAR3 (12~274 μM EC50), which is known to increase neuropeptide PYY expression and intestinal gluconeogenesis [2].",
+                "Ligand for GPR43/FFAR2, which is known to increase the secretion of neuropeptides GLP-1 and PYY [2]."
+            ],
+            "bibliography": {
+                "1": {
+                    "title":"Propionic Acid Shapes the Multiple Sclerosis Disease Course by an Immunomodulatory Mechanism",
+                    "journal":"Cell",
+                    "year":"2020",
+                    "doi":"10.1016/j.cell.2020.02.035"
+                },
+                "2": {
+                    "title":"From Dietary Fiber to Host Physiology: Short-Chain Fatty Acids as Key Bacterial Metabolites",
+                    "journal":"Cell",
+                    "year":"2016",
+                    "doi":"http://dx.doi.org/10.1016/j.cell.2016.05.041"
+                },
+                "3": {
+                    "title":"Phylogenetic distribution of three pathways for propionate production within the human gut microbiota",
+                    "journal":"The ISME Journal",
+                    "year":"2014",
+                    "doi":"https://doi.org/10.1038/ismej.2014.14"
+                },
+                "4": {
+                    "title":"Clostridium sporogenes uses reductive Stickland metabolism in the gut to generate ATP and produce circulating metabolites",
+                    "journal":"Nature Microbiology",
+                    "year":"2022",
+                    "doi":"https://doi.org/10.1038/s41564-022-01109-9"
+                }
+            }
+        },
+        {
+            "name": ["indole-3-acetate","indole-3-acetic acid"],
+            "CAS": "87-51-4",
+            "class": "tryptophan derivative",
+            "producers": ["Clostridium sporogenes [3]","Clostridium difficile [2]","Lactobacillus murinus [1]","Bacteroides fragilis [2]","Bacteroides ovatus [2]","Bifidobacterium longum subsp. longum [2]","Bifidobacterium adolescentis [2]","Peptostreptococcus asscharolyticus [2]","Escherichia coli [2]","Eubacterium cylindroides [2]"],
+            "functions/associations": [
+                "In the intestinal crypt, indole-3-acetic acid is elevated nearly two-fold after chronic stress in mice [1].",
+                " An Escherichia coli strain engineered with the essential indole-3-acetic acid biosynthetic gene cluster (ami1-Iaam) could precipitate stress-induced intestinal stem cell defect, as evidenced by villi and crypt length, goblet cell density, and in vitro enteroid formation, upon colonization of antibiotic-treated mice [1]."    
+            ],
+            "bibliography": {
+                "1": {
+                    "title":"Psychological stress-induced microbial metabolite indole-3-acetate disrupts intestinal cell lineage commitment",
+                    "journal":"Cell Metabolism",
+                    "year":"2024",
+                    "doi":"https://doi.org/10.1016/j.cmet.2023.12.026"
+                },
+                "2": {
+                    "title":"Microbial tryptophan catabolites in health and disease",
+                    "journal":"Nature Communications",
+                    "year":"2018",
+                    "doi":"https://doi.org/10.1038/s41467-018-05470-4"
+                },
+                "3": {
+                    "title":"Clostridium sporogenes uses reductive Stickland metabolism in the gut to generate ATP and produce circulating metabolites",
+                    "journal":"Nature Microbiology",
+                    "year":"2022",
+                    "doi":"https://doi.org/10.1038/s41564-022-01109-9"
+                }
+            }
+        },
+        {
+            "name": ["indole-3-lactate","indole-3-lactic acid","indolelactic acid"],
+            "CAS": "1821-52-9",
+            "class": "tryptophan derivative",
+            "producers": ["Lactobacillus reuteri [1]","Lactobacillus murinus [1]","Escherichia coli [1]","Eubacterium cylindroides [1]","Faecalibacterium prausnitzii [1]","Clostridium sporogenes [1]","Bacteroides fragilis [1]","Bifidobacterium adolescentis [1]","Bacteroides ovatus [1]","Eubacterium rectale [1]","Peptostreptococcus asscharolyticus [1]","Bifidobacterium longum subsp. longum [1]","Bifidobacterium longum subsp. infantis [1]"],
+            "functions/associations": [
+                ""
+            ],
+            "bibliography": {
+                "1": {
+                    "title":"Microbial tryptophan catabolites in health and disease",
+                    "journal":"Nature Communications",
+                    "year":"2018",
+                    "doi":"https://doi.org/10.1038/s41467-018-05470-4"
+                }
+            }
+        },
+        {
+            "name": ["indole-3-carbaldehyde","indolealdehyde"],
+            "CAS": "487-89-8",
+            "class": "tryptophan derivative",
+            "producers": ["Lactobacillus murinus [1]","Lactobacillus acidophilus [1]","Lactobacillus reuteri [1]"],
+            "functions/associations": [
+                "The production of indole-3-carbaldehyde by L. reuteri grown in the presence of Trp induced IL-22 production in ex vivo cultures of gastric specimens [2].",
+                "Administration of indole-3-carbaldehyde to WT and AHR-null mice with mucosal candidiasis or with dextran sodium sulfate-induced colitis, restored antifungal resistance and IL-22 production upon infection, ameliorated colitis, and induced IL-22 production by colonic NKp46+ cells in WT but not AHR-null mice [2]."
+            ],
+            "bibliography": {
+                "1": {
+                    "title":"Microbial tryptophan catabolites in health and disease",
+                    "journal":"Nature Communications",
+                    "year":"2018",
+                    "doi":"https://doi.org/10.1038/s41467-018-05470-4"
+                },
+                "2": {
+                    "title":"Tryptophan Catabolites from Microbiota Engage Aryl Hydrocarbon Receptor and Balance Mucosal Reactivity via Interleukin-22",
+                    "journal":"Immunity",
+                    "year":"2013",
+                    "doi":"https://doi.org/10.1016/j.immuni.2013.08.003"
+                }
+            }
+        },
+        {
+            "name": ["indole-3-propionate","indole-3-propionic acid","indolepropionic acid"],
+            "CAS": "830-96-6",
+            "class": "tryptophan derivative",
+            "producers": ["Clostridium sporogenes [4]","Clostridium cadaveris [4]","Peptostreptococcus anaerobius [4]","Peptostreptococcus asscharolyticus [5]"],
+            "functions/associations": [
+                "An endogenous ligand of the aryl hydrocarbon receptor capable of crossing the blood-brain barrier [1].",
+                "In humans under homeostatic conditions, blood indole-3-propionic acid and indole concentrations remain in micromolar and millimolar range, respectively, with intestinal concentrations predicted to be much higher [2].",
+                "Indole-3-propionic acid alone is a weak agonist for human PXR (EC50 120 μM), a central regulator of TLR4-mediated control of intestinal barrier function, based on studies done with a luciferase reporter gene in transfected 293T cells, but is significantly activated with the additional presence of 1 mM indole. It binds potently (EC50 0.55 μM) to murine PXR[2].",
+                "Exposure of mouse intestinal mucosa to C. sporogenes results in significant induction of PXR target gene (Ugt1a1) when compared to mice exposed to a heat-killed strain [2].",
+                "In the chronic restraint mouse model of psychological stress, indole-3-propionic acid was significantly lower in ileal concentration relative to control mice [3].",
+                "The reduction of indole-3-propionic acid was associated with the ASD susceptibility in caffeine-induced intrauterine growth restriction rats. In these rats, oral gavage of indole-3-propionic acid restored the hippocampal microglia hyperactivation, synapse over-pruning, and synapse impairment [1]."
+            ],
+            "bibliography": {
+                "1": {
+                    "title":"Microbiota-indole 3-propionic acid-brain axis mediates abnormal synaptic pruning of hippocampal microglia and susceptibility to ASD in IUGR offspring",
+                    "journal":"Microbiome",
+                    "year":"2023",
+                    "doi":"https://doi.org/10.1186/s40168-023-01656-1"
+                },
+                "2": {
+                    "title":"Symbiotic Bacterial Metabolites Regulate Gastrointestinal Barrier Function via the Xenobiotic Sensor PXR and Toll-like Receptor 4",
+                    "journal":"Immunity",
+                    "year":"2014",
+                    "doi":"https://doi.org/10.1016/j.immuni.2014.06.014"
+                },
+                "3": {
+                    "title":"Psychological stress-induced microbial metabolite indole-3-acetate disrupts intestinal cell lineage commitment",
+                    "journal":"Cell Metabolism",
+                    "year":"2024",
+                    "doi":"https://doi.org/10.1016/j.cmet.2023.12.026"
+                },
+                "4": {
+                    "title":"A gut bacterial pathway metabolizes aromatic amino acids into nine circulating metabolites",
+                    "journal":"Nature",
+                    "year":"2017",
+                    "doi":"https://doi.org/10.1038/nature24661"
+                },
+                "5": {
+                    "title":"Microbial tryptophan catabolites in health and disease",
+                    "journal":"Nature Communications",
+                    "year":"2018",
+                    "doi":"https://doi.org/10.1038/s41467-018-05470-4"
+                }
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "short-chain fatty acid",
+            "information": [
+                "Produced by saccarolytic fermentation of carbohydrates and proteins in the intestine. Soluble fibres such as pectin, beta-glucans, and inulin are fermented more readily than insoluble fibres such as cellulose and lignin [1].",
+                "Prebiotics such as fructooligosaccharides and galactooligosaccharides can stimulate the growth of gut bacteria that produce SCFAs [1].",
+                "The molar ratio of acetate:propionate:butyrate is about 60:20:20 [1].",
+                "The concentrations of SCFAs varies along the length of the gut, with highest levels in the cecum and proximal colon [2]."
+            ],
+            "bibliography": {
+                "1": {
+                    "title": "Short chain fatty acids: key regulators of the local and systemic immune response in inflammatory diseases and infections",
+                    "journal": "Open Biology",
+                    "year": "2023",
+                    "doi":"https://doi.org/10.1098/rsob.230014"
+                },
+                "2": {
+                    "title":"From Dietary Fiber to Host Physiology: Short-Chain Fatty Acids as Key Bacterial Metabolites",
+                    "journal":"Cell",
+                    "year":"2016",
+                    "doi":"http://dx.doi.org/10.1016/j.cell.2016.05.041"
+                }
+            }
+        },
+        {
+            "name": "tryptophan derivative",
+            "information": [
+                "Carbohydrate substrates are depleted from the proximal to the distal colon, causing a shift in bacterial catabolism from saccharolytic to proteolytic fermentation [1].",
+                "A major function of reductive tryptophan metabolism in bacteria is to maintain redox homeostasis under anaerobic conditions [1-3], but ATP can also be generated in this process through the reduction of ferrodoxin. Studies with Clostridium sporogenes in gnotobiotic mice indicate that the Rnf complex, which couples ferrodoxin oxidation to active proton transport, is a fitness determinant within the gut [3].",
+                "Oxidative stickland metabolism of tryptophan in bacteria yields ATP through substrate-level phsophorylation [3].",
+                "Several bacterial tryptophan catabolites including tryptamine, skatole, indole-3-acetic acid, indole-3-acrylic acid, indole-3-carbaldehyde, and indole-3-lactic acid act as ligands of the aryl hydrocarbon receptor [1]."
+            ],
+            "bibliography": {
+                "1": {
+                    "title":"Microbial tryptophan catabolites in health and disease",
+                    "journal":"Nature Communications",
+                    "year":"2018",
+                    "doi":"https://doi.org/10.1038/s41467-018-05470-4"
+                },
+                "2": {
+                    "title":"A gut bacterial pathway metabolizes aromatic amino acids into nine circulating metabolites",
+                    "journal":"Nature",
+                    "year":"2017",
+                    "doi":"https://doi.org/10.1038/nature24661"
+                },
+                "3": {
+                    "title":"Clostridium sporogenes uses reductive Stickland metabolism in the gut to generate ATP and produce circulating metabolites",
+                    "journal":"Nature Microbiology",
+                    "year":"2022",
+                    "doi":"https://doi.org/10.1038/s41564-022-01109-9"
+                }
+            }
+        }
+    ]
+}
