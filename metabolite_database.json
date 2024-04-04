@@ -237,19 +237,20 @@
             }
         },
         {
-            "name": [""],
+            "name": ["tryptamine"],
             "CAS": "",
-            "class": "",
-            "producers": [""],
+            "class": "tryptophan derivative",
+            "producers": ["Clostridium sporogenes [1], Ruminococcus gnavus [1]"],
             "functions/associations": [
-                ""
+                "Stimulates mucin secretion by goblet cells in mice, which is mediated by the GCPR serotonin receptor 4 [1]",
+                "Germ-free mice colonized with engineered Bacteroides thetaiotaomicron optimized to produce tryptamine exhibit decreased weight loss and increased mucus release following dextran sodium sulfate treatment when compared with mice colonized with control B. thetaiotaomicron [1]."
             ],
             "bibliography": {
                 "1": {
-                    "title":"",
-                    "journal":"",
-                    "year":"",
-                    "doi":""
+                    "title":"Bacterially Derived Tryptamine Increases Mucus Release by Activating a Host Receptor in a Mouse Model of Inflammatory Bowel Disease",
+                    "journal":"iScience",
+                    "year":"2020",
+                    "doi":"https://doi.org/10.1016%2Fj.isci.2020.101798"
                 }
             }
         }
