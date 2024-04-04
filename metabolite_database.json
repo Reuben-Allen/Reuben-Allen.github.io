@@ -218,7 +218,7 @@
             }
         },
         {
-            "name": ["trimethylamine N-oxide","TMAO"],
+            "name": ["trimethylamine n-oxide","tmao"],
             "CAS": "1184-78-7",
             "class": "methylamine",
             "producers": [""],
@@ -238,7 +238,7 @@
         },
         {
             "name": ["tryptamine"],
-            "CAS": "",
+            "CAS": "61-54-1",
             "class": "tryptophan derivative",
             "producers": ["Clostridium sporogenes [1], Ruminococcus gnavus [1]"],
             "functions/associations": [
