@@ -216,6 +216,43 @@
                     "doi":"https://doi.org/10.1038/s41467-018-05470-4"
                 }
             }
+        },
+        {
+            "name": ["trimethylamine N-oxide","TMAO"],
+            "CAS": "1184-78-7",
+            "class": "methylamine",
+            "producers": [""],
+            "functions/associations": [
+                "Dietary methylamines can be broken down by members of the gut microbiota into trimethylamine, which is carried from the gut through the portal vasculature to the liver and rapidly converted into TMAO by flavin monooxygenases [1].",
+                "Systemic administration of TMAO to wild-type male mice (1.8 mg/kg, i.p.) induces a time-dependent reduction in BBB permeability to the tracer Evans blue [1].",
+                "In chronic injection of mice with bacterial LPS, a treatment known to increase BBB permeability and affect working memory, TMAO administration prevented brain perivascular IgG deposition and weight loss associated with LPS only mice. Mice co-treated with TMAO also did not display the altered behavior characteristics of LPS mice [1]. "
+            ],
+            "bibliography": {
+                "1": {
+                    "title":"Regulation of blood–brain barrier integrity by microbiome-associated methylamines and cognition by trimethylamine N-oxide",
+                    "journal":"Microbiome",
+                    "year":"2021",
+                    "doi":"https://doi.org/10.1186/s40168-021-01181-z"
+                }
+            }
+        },
+        {
+            "name": ["tryptamine"],
+            "CAS": "",
+            "class": "tryptophan derivative",
+            "producers": ["Clostridium sporogenes [1], Ruminococcus gnavus [1]"],
+            "functions/associations": [
+                "Stimulates mucin secretion by goblet cells in mice, which is mediated by the GCPR serotonin receptor 4 [1]",
+                "Germ-free mice colonized with engineered Bacteroides thetaiotaomicron optimized to produce tryptamine exhibit decreased weight loss and increased mucus release following dextran sodium sulfate treatment when compared with mice colonized with control B. thetaiotaomicron [1]."
+            ],
+            "bibliography": {
+                "1": {
+                    "title":"Bacterially Derived Tryptamine Increases Mucus Release by Activating a Host Receptor in a Mouse Model of Inflammatory Bowel Disease",
+                    "journal":"iScience",
+                    "year":"2020",
+                    "doi":"https://doi.org/10.1016%2Fj.isci.2020.101798"
+                }
+            }
         }
     ],
     "classes": [
