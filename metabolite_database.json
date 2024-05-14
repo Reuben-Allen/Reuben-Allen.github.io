@@ -104,7 +104,7 @@
             "name": ["indole-3-acetate","indole-3-acetic acid"],
             "CAS": "87-51-4",
             "class": "tryptophan derivative",
-            "producers": ["Clostridium sporogenes [3]","Clostridium difficile [2]","Lactobacillus murinus [1]","Bacteroides fragilis [2]","Bacteroides ovatus [2]","Bifidobacterium longum subsp. longum [2]","Bifidobacterium adolescentis [2]","Peptostreptococcus asscharolyticus [2]","Escherichia coli [2]","Eubacterium cylindroides [2]"],
+            "producers": ["Clostridium sporogenes [3]","Clostridium difficile [2]","Lactobacillus murinus [1]","Bacteroides fragilis [2]","Bacteroides ovatus [2]","Bifidobacterium longum subsp. longum [2]","Bifidobacterium adolescentis [2]","Peptostreptococcus asscharolyticus [2]","Escherichia coli [2]","Eubacterium cylindroides [2],Ruminococcus gnavus [4]"],
             "functions/associations": [
                 "In the intestinal crypt, indole-3-acetic acid is elevated nearly two-fold after chronic stress in mice [1].",
                 " An Escherichia coli strain engineered with the essential indole-3-acetic acid biosynthetic gene cluster (ami1-Iaam) could precipitate stress-induced intestinal stem cell defect, as evidenced by villi and crypt length, goblet cell density, and in vitro enteroid formation, upon colonization of antibiotic-treated mice [1]."    
@@ -127,6 +127,12 @@
                     "journal":"Nature Microbiology",
                     "year":"2022",
                     "doi":"https://doi.org/10.1038/s41564-022-01109-9"
+                },
+                "4": {
+                    "title":"The role of the mucin-glycan foraging Ruminococcus gnavus in the communication between the gut and the brain",
+                    "journal":"Gut Microbes",
+                    "year":"2022",
+                    "doi":"http://dx.doi.org/10.1080/19490976.2022.2073784"
                 }
             }
         },
