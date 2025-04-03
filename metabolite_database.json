@@ -107,7 +107,9 @@
             "producers": ["Clostridium sporogenes [3]","Clostridium difficile [2]","Lactobacillus murinus [1]","Bacteroides fragilis [2]","Bacteroides ovatus [2]","Bifidobacterium longum subsp. longum [2]","Bifidobacterium adolescentis [2]","Peptostreptococcus asscharolyticus [2]","Escherichia coli [2]","Eubacterium cylindroides [2]"],
             "functions/associations": [
                 "In the intestinal crypt, indole-3-acetic acid is elevated nearly two-fold after chronic stress in mice [1].",
-                " An Escherichia coli strain engineered with the essential indole-3-acetic acid biosynthetic gene cluster (ami1-Iaam) could precipitate stress-induced intestinal stem cell defect, as evidenced by villi and crypt length, goblet cell density, and in vitro enteroid formation, upon colonization of antibiotic-treated mice [1]."    
+                "An Escherichia coli strain engineered with the essential indole-3-acetic acid biosynthetic gene cluster (ami1-Iaam) could precipitate stress-induced intestinal stem cell defect, as evidenced by villi and crypt length, goblet cell density, and in vitro enteroid formation, upon colonization of antibiotic-treated mice [1].",
+                "C57BL/6 mice treated with IAA for 2 weeks exhibited resistance to DSS-induced colitis [4].",
+                "IAA upregulates key molecules involved in mucin sulfation, including 3’-phosphoadenosine 5’-phosphosulfate synthase 2 and solute carrier family 35 member B3, the synthesis enzyme and the transferase of 3’-phosphoadenosine-5’-phosphosulfate, via the aryl hydrocarbon receptor in HT-29 cells [4]."
             ],
             "bibliography": {
                 "1": {
@@ -127,6 +129,12 @@
                     "journal":"Nature Microbiology",
                     "year":"2022",
                     "doi":"https://doi.org/10.1038/s41564-022-01109-9"
+                },
+                "4": {
+                    "title":"Gut microbiota metabolite indole-3-acetic acid maintains intestinal epithelial homeostasis through mucin sulfation",
+                    "journal": "Gut Microbes",
+                    "year": "2024",
+                    "doi": "https://doi.org/10.1080/19490976.2024.2377576"
                 }
             }
         },
